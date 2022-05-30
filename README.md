@@ -1,6 +1,5 @@
-# TestProject
-Learning vim, git, html5, css, and js.
+# A Small Page
 ---
 
-Learned how to download vim plugins like coc, emmet, and vim-airline.
-Used emmet abbreviations to type html code faster.
+Learned how to download Neovim plugins like coc, Emmet, and vim-airline.
+Used Emmet abbreviations to type html code faster.
