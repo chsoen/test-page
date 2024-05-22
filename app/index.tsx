@@ -1,6 +1,5 @@
 import { SafeAreaView, StyleSheet, FlatList } from "react-native";
 import { Text, Card } from "react-native-paper";
-import { useState } from "react";
 
 type ItemProp = {
   title: string;
