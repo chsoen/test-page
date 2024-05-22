@@ -1,11 +1,10 @@
 {
-  "homepage": "https://chsoen.github.io/test-page",
   "name": "test-page",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -d start",
+    "deploy": "gh-pages -t -d dist",
+    "predeploy": "expo export -p web",
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
